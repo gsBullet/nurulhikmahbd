@@ -1,0 +1,16 @@
+/* @font-face {
+  font-family: "ALAQ-DIMASHQ";
+  src: url("../font/alfont_com_ALAQ-DIMASHQ.otf") format("opentype");
+} */
+@font-face {
+  font-family: "HHHHH";
+  src: url("../font/HidayatullahDemo-mLp39.ttf") format("opentype");
+}
+
+.header-title {
+  font-family: "HHHHH" !important;
+}
+.navbar {
+  padding-left: 70px;
+  /* border: 1px solid red; */
+}
