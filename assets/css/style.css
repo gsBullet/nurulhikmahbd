@@ -301,7 +301,7 @@ header {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  /* border : 2px solid red; */
+  /* border: 2px solid red; */
 }
 .two-bar:before {
   border-top-left-radius: 10px;

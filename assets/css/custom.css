@@ -25,12 +25,30 @@
 .header-title {
   font-family: "Syawal_Khidmat", Arial, sans-serif !important;
 }
-
+.two-bar {
+  padding: 0px !important;
+  margin: 0px !important;
+  width: 100% !important;
+  left: 0px !important;
+  right: 0px !important;
+  justify-content: space-between !important;
+}
+.two-bar::before {
+  border-radius: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+}
+.two-bar::after {
+  border-radius: 0px !important;
+  left: 0px !important;
+  right: 0px !important;
+}
+/* 
 .navbar {
   padding-left: 70px;
-  /* border: 1px solid red; */
-}
+} */
 
+/* border: 1px solid red; */
 .custom-notice-btn {
   background-color: var(--theme-colour);
   padding: 8px 25px;
@@ -42,5 +60,13 @@
   border-top-right-radius: 0;
   bottom: 10px;
   font-size: 15px;
-  
+}
+.custom-portal-btn {
+  background-color: var(--theme-colour);
+  padding: 8px 25px;
+  font-weight: bold;
+  right: 0;
+  border-radius: 52px;
+  /* bottom: 10px; */
+  font-size: 15px;
 }
