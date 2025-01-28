@@ -30,3 +30,17 @@
   padding-left: 70px;
   /* border: 1px solid red; */
 }
+
+.custom-notice-btn {
+  background-color: var(--theme-colour);
+  padding: 8px 25px;
+  font-weight: bold;
+  position: absolute;
+  right: 0;
+  border-radius: 52px;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  bottom: 10px;
+  font-size: 15px;
+  
+}
