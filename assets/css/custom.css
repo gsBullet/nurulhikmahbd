@@ -35,7 +35,7 @@
   padding-top: 70px;
   padding-bottom: 70px;
 }
-.header-logo{
+.header-logo {
   width: unset;
   height: 145px;
 }
@@ -49,7 +49,60 @@
 }
 .madrasah-header {
   font-size: 60px !important;
- line-height: 60px;
+  line-height: 60px;
+}
+
+.notice-custom {
+  display: flex;
+  flex-direction: row;
+}
+.notice-date {
+  width: 120px;
+}
+.notice-day-month,
+.notice_year_bg {
+  padding: 7px 0px;
+}
+.notice-day-month {
+  position: relative;
+}
+.notice_day::before {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: seagreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  left: 10px;
+}
+.notice_day::after {
+  content: "";
+  width: 10px;
+  height: 10px;
+  background-color: seagreen;
+  border-radius: 50%;
+  position: absolute;
+  top: 7px;
+  right: 10px;
+}
+.notice_day,
+.notice_month {
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  color: black;
+}
+.notice_year {
+  text-align: center;
+  font-size: 18px;
+  line-height: 18px;
+  color: white;
+}
+
+.notice-details {
+  width: 100%;
+  padding: 0px 10px;
 }
 .two-bar {
   padding: 0px !important;
@@ -94,12 +147,12 @@ header.two .two-bar:after {
   background-color: var(--theme-colour);
   padding: 8px 25px;
   font-weight: bold;
-  position: absolute;
-  right: 0;
+  /* position: absolute; */
+  /* right: 0; */
   border-radius: 52px;
   border-bottom-right-radius: 0;
   border-top-right-radius: 0;
-  bottom: 10px;
+  /* bottom: 10px; */
   font-size: 15px;
 }
 .custom-portal-btn {
@@ -254,16 +307,3 @@ header.two .two-bar:after {
   width: 100%;
   height: 250px;
 }
-/* .video-gallery:before {
-  z-index: -1;
-  left: -8%;
-  content: "";
-  position: absolute;
-  width: 100%;
-  height: 100%;
-  background-repeat: no-repeat;
-  mix-blend-mode: difference;
-  bottom: 1%;
-} */
-
-/* background-image: url(../img/background-history.png); */
