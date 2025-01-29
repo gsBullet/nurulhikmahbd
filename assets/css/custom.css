@@ -35,17 +35,21 @@
   padding-top: 70px;
   padding-bottom: 70px;
 }
+.header-logo{
+  width: unset;
+  height: 145px;
+}
 .header-title {
   font-family: "Syawal_Khidmat", Arial, sans-serif !important;
 }
 .arabic-header {
   font-size: 40px !important;
-  display: block;
+  line-height: 40px;
   font-family: "Syawal_Khidmat", Arial, sans-serif !important;
 }
 .madrasah-header {
   font-size: 60px !important;
-  display: block;
+ line-height: 60px;
 }
 .two-bar {
   padding: 0px !important;
