@@ -2939,7 +2939,7 @@ li.timing-date {
   width: 100%;
   height: 100%;
   top: 0;
-  background-color: var(--common-colour);
+  /* background-color: var(--common-colour); */
   opacity: 0.8;
 }
 
