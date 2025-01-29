@@ -20,7 +20,6 @@
 
     <!-- JavaScript -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
-    <script src="assets/js/custom.js"></script>
     <script src="assets/js/preloader.js"></script>
   </head>
 
@@ -36,6 +35,7 @@
     </div>
 
     <!-- Header -->
+
     <header
       class="two position-relative"
       style="background-image: url(assets/img/color-bg.jpg)"
@@ -65,20 +65,26 @@
               </div>
             </div>
           </div>
-          <!-- </div> -->
         </div>
 
         <!-- Logo -->
         <div class="logo text-center">
           <div class="d-flex justify-content-center align-items-center gap-3">
             <a href="index.html">
-              <img src="assets/img/logo/logo_h.png" alt="logo" width="100" />
+              <img
+                src="assets/img/logo/logo_h.png"
+                alt="logo"
+                width="100"
+                class="h-100"
+              />
             </a>
             <div>
-              <h3 class="text-warning fw-bolder bangla-font">
+              <span class="text-warning fw-bolder madrasah-header bangla-font">
                 বায়্যিনাহ মডেল মাসরাসা
-              </h3>
-              <h3 class="text-warning fw-bolder">مدرسة البينة النموذجية</h3>
+              </span>
+              <span class="text-warning arabic-header"
+                >مدرسة البينة النموذجية</span
+              >
             </div>
           </div>
         </div>
@@ -94,32 +100,32 @@
         <!-- Navigation -->
         <div class="container">
           <div class="two-bar">
-            <nav class="navbar m-0">
+            <nav class="navbar">
               <ul class="navbar-links ms-3">
-                <li class="navbar-dropdown">
-                  <a href="#">Home</a>
-                  <div class="dropdown">
+                <li class="">
+                  <a href="#">হোম</a>
+                  <!-- <div class="dropdown">
                     <a href="index.html">Home 1</a>
                     <a href="index-2.html">Home 2</a>
-                  </div>
+                  </div> -->
                 </li>
-                <li><a href="about.html">About</a></li>
+
                 <li class="navbar-dropdown">
-                  <a href="#">Courses</a>
+                  <a href="#">ক্যাম্পাস</a>
                   <div class="dropdown">
                     <a href="our-courses.html">Our Courses</a>
                     <a href="courses-details.html">Courses Details</a>
                   </div>
                 </li>
                 <li class="navbar-dropdown">
-                  <a href="#">Campaigns</a>
+                  <a href="#">একাডেমিক</a>
                   <div class="dropdown">
                     <a href="our-campaigns.html">Our Campaigns</a>
                     <a href="campaign-details.html">Campaign Details</a>
                   </div>
                 </li>
                 <li class="navbar-dropdown">
-                  <a href="#">Pages</a>
+                  <a href="#">একাডেমিক ক্যাম্পাস</a>
                   <div class="dropdown">
                     <a href="our-scholar.html">Our Scholar</a>
                     <a href="scholar-details.html">Scholar Details</a>
@@ -129,16 +135,40 @@
                   </div>
                 </li>
                 <li class="navbar-dropdown">
-                  <a href="#">News</a>
+                  <a href="#">শিক্ষার্থী</a>
                   <div class="dropdown">
                     <a href="our-blog.html">Our Blog</a>
                     <a href="blog-details.html">Blog Details</a>
                   </div>
                 </li>
-                <li><a href="contact.html">Contact</a></li>
+                <li class="navbar-dropdown">
+                  <a href="#">ফলাফল</a>
+                  <div class="dropdown">
+                    <a href="our-blog.html">Our Blog</a>
+                    <a href="blog-details.html">Blog Details</a>
+                  </div>
+                </li>
+                <li class="navbar-dropdown">
+                  <a href="#">নোটিশ</a>
+                  <div class="dropdown">
+                    <a href="our-blog.html">Our Blog</a>
+                    <a href="blog-details.html">Blog Details</a>
+                  </div>
+                </li>
+                <li class="navbar-dropdown">
+                  <a href="#">কোর্স সমূহ</a>
+                  <div class="dropdown">
+                    <a href="our-blog.html">Our Blog</a>
+                    <a href="blog-details.html">Blog Details</a>
+                  </div>
+                </li>
+
+                <li class="navbar-dropdown">
+                  <a href="#">অন্যান্য</a>
+                </li>
               </ul>
             </nav>
-            <div class="header-search m-0">
+            <div class="header-search">
               <a href="tel:+0012334511" aria-label="Call us">
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
@@ -178,6 +208,8 @@
           </div>
         </div>
       </div>
+
+      <!-- mobile views  -->
       <div
         class="mobile-nav hmburger-menu"
         id="mobile-nav"
@@ -238,8 +270,10 @@
       </div>
     </header>
 
+    <!-- End of Header Section -->
+
     <!-- banner part start  -->
-    <div
+    <section
       class="hero-section two"
       style="background-image: url(assets/img/banner/mad-banner.png)"
     >
@@ -287,7 +321,7 @@
           </marquee>
         </div>
       </div>
-    </div>
+    </section>
 
     <!-- banner part end  -->
 
@@ -338,7 +372,7 @@
               <div class="opening-time hoverimg">
                 <figure>
                   <img
-                    src="assets/img/student/office.png"
+                    src="assets/img/student/staff-management.png"
                     class="w-25"
                     alt="img"
                   />
@@ -357,7 +391,7 @@
 
     <!-- our description start  -->
 
-    <section class="gap">
+    <section class="gap bg-0">
       <div class="container">
         <div class="">
           <!-- <div class="package-reat">
@@ -372,8 +406,10 @@
           >
             <div class="row justify-content-center gap-5">
               <div class="col-lg-6">
-                <h4 class="text-light fw-bolder">সংক্ষিপ্ত পরিচিতি</h4>
-                <p class="text-light fw-semibold">
+                <h4 class="text-light fw-bolder bangla-font">
+                  সংক্ষিপ্ত পরিচিতি
+                </h4>
+                <p class="text-light fw-semibold bangla-font">
                   আলহামদুলিল্লাহ, ওয়াসসালাতু ওয়াসসালামু আলা রাসূলিল্লাহ। আম্মা
                   বা'দ- সর্বশ্রেষ্ঠ জাতি মুসলিম উম্মাহ। এ জাতি শিক্ষা, সংস্কৃতি,
                   অর্থনীতি, রাজনীতির স্বকীয়তা হারিয়েছে অনেক আগেই। ভেঙ্গে চুরমার
@@ -394,7 +430,7 @@
                   <div class="card rounded-4">
                     <div class="card-body px-1">
                       <div class="row">
-                        <div class="col-4">
+                        <div class="col-5">
                           <div class="bg-warning text-center p-3">
                             <h2 class="text-center fs-4">5</h2>
                             <h2 class="text-center fs-4">August</h2>
@@ -423,7 +459,7 @@
                   <div class="card rounded-4">
                     <div class="card-body px-1">
                       <div class="row">
-                        <div class="col-4">
+                        <div class="col-5">
                           <div class="bg-warning text-center p-3">
                             <h2 class="text-center fs-4">5</h2>
                             <h2 class="text-center fs-4">August</h2>
@@ -492,7 +528,7 @@
     <!-- our description end  -->
 
     <!-- madrashah properties and types start  -->
-    <section class="gap no-top">
+    <section class="gap no-top bg-1">
       <div class="container">
         <div class="row justify-content-between">
           <div class="col-lg-6 col-md-12 col-sm-12 col-12">
@@ -594,7 +630,7 @@
 
     <!-- Principal's message start  -->
 
-    <section class="">
+    <section class="gap bg-0">
       <div class="container">
         <!-- <div class="heading">
           <img src="assets/img/heading-img.png" alt="icon" />
@@ -656,12 +692,13 @@
     </section>
 
     <!-- Principal's message end -->
+
     <!-- information of madrasah  -->
 
-    <section class="gap welcome-to-ibadat">
+    <section class="gap welcome-to-ibadat bg-1">
       <div class="container">
-        <div class="row justify-content-center align-items-center gap-5">
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 1">
+        <div class="d-flex justify-content-center flex-wrap gap-4">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 1">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -675,7 +712,7 @@
                   />
                   <h6 class="text-light text-center">ক্যাম্পাস</h6>
                 </div>
-                <div class="col-6">
+                <div class="col-8">
                   <ul>
                     <li>
                       <i class="fa-solid fa-caret-right"></i>&nbsp; ইতিহাস
@@ -695,7 +732,7 @@
               </div>
             </div>
           </div>
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 2">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 2">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -739,7 +776,7 @@
               </div>
             </div>
           </div>
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 3">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 3">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -777,7 +814,7 @@
               </div>
             </div>
           </div>
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 4">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 4">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -822,7 +859,7 @@
               </div>
             </div>
           </div>
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 5">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 5">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -874,7 +911,7 @@
               </div>
             </div>
           </div>
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 6">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 6">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -920,7 +957,7 @@
               </div>
             </div>
           </div>
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 7">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 7">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -951,7 +988,7 @@
               </div>
             </div>
           </div>
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 8">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 8">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -990,7 +1027,7 @@
               </div>
             </div>
           </div>
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 9">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 9">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -1019,7 +1056,7 @@
               </div>
             </div>
           </div>
-          <div class="item col-12 col-sm-12 col-md-5 col-lg-4 px-0 10">
+          <div class="item col-12 col-sm-12 col-md-5 col-lg-3 px-0 10">
             <div
               class="surat-download"
               style="background-image: url(assets/img/color-bg.jpg)"
@@ -1062,8 +1099,9 @@
       </div>
     </section>
     <!-- information of madrasah  -->
+
     <!-- blog start  -->
-    <section class="gap no-top">
+    <section class="gap no-top bg-0">
       <div class="container">
         <div class="heading">
           <!-- <img src="assets/img/heading-img.png" alt="Heading Icon" /> -->
@@ -1144,9 +1182,9 @@
 
     <!-- blog end  -->
 
-    <!-- gallary start  -->
-    
-    <section class="gap gallary-section">
+    <!--image gallary start  -->
+
+    <section class="gap gallary-section bg-1">
       <div class="container">
         <div class="gallary-header">
           <h2 class="bangla-font text-center mb-5">গ্যালারী</h2>
@@ -1193,8 +1231,101 @@
           <a href="#" class="btn btn-warning bangla-font">আরো দেখুন</a>
         </div>
       </div>
-    </div>
-    <!-- gallary end -->
+    </section>
+    <!-- image  gallary end -->
+
+    <!-- video gallary start  -->
+
+    <section class="gap bg-0">
+      <div class="container">
+        <div class="video-heading ">
+          <h2 class="bangla-font text-center">ভিডিও গ্যালারী</h2>
+        </div>
+        <div class="gallery-video">
+          <div class="gallery-video-item">
+            <div class="video-gallery position-relative">
+              <a
+                data-fancybox=""
+                href="https://www.youtube.com/embed/mVceFAWkWws"
+              >
+                <i>
+                  <svg
+                    width="11"
+                    height="17"
+                    viewBox="0 0 11 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11 8.49951L0.5 0.27227L0.5 16.7268L11 8.49951Z"
+                      fill="#000"
+                    ></path>
+                  </svg>
+                </i>
+              </a>
+              <img src="assets/img/video/azhari.png" alt="img" />
+            </div>
+          </div>
+
+          <div class="gallery-video-item">
+            <div class="video-gallery position-relative">
+              <a
+                data-fancybox=""
+                href="https://www.youtube.com/embed/mVceFAWkWws"
+              >
+                <i>
+                  <svg
+                    width="11"
+                    height="17"
+                    viewBox="0 0 11 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11 8.49951L0.5 0.27227L0.5 16.7268L11 8.49951Z"
+                      fill="#000"
+                    ></path>
+                  </svg>
+                </i>
+              </a>
+              <img src="assets/img/video/gan.png" alt="img" />
+            </div>
+          </div>
+
+          <div class="gallery-video-item">
+            <div class="video-gallery position-relative">
+              <a
+                data-fancybox=""
+                href="https://www.youtube.com/embed/XZ8y5Jbnalc"
+              >
+                <i>
+                  <svg
+                    width="11"
+                    height="17"
+                    viewBox="0 0 11 17"
+                    fill="none"
+                    xmlns="http://www.w3.org/2000/svg"
+                  >
+                    <path
+                      d="M11 8.49951L0.5 0.27227L0.5 16.7268L11 8.49951Z"
+                      fill="#000"
+                    ></path>
+                  </svg>
+                </i>
+              </a>
+              <img src="assets/img/video/nusaiba.png" alt="img" />
+            </div>
+          </div>
+
+          <!-- Add more videos as needed -->
+        </div>
+
+        <div class="video-btn mt-5 text-center">
+          <a href="#" class="btn btn-warning bangla-font">আরো দেখুন</a>
+        </div>
+      </div>
+    </section>
+    <!-- video gallary end -->
 
     <!-- extra js  -->
 
@@ -1210,6 +1341,23 @@
       });
     </script> -->
     <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/videogallery.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <!-- extra js  -->
+    <!-- extra js  -->
+    <script src="assets/js/bootstrap.min.js"></script>
+    <script src="assets/js/jquery.nice-select.min.js"></script>
+    <script src="assets/js/owl.carousel.min.js"></script>
+    <script src="assets/js/circle-progres.js"></script>
+    <!-- fancybox -->
+    <!-- <script src="assets/js/audioplayer.js"></script> -->
+    <!-- <script>
+      $(function () {
+        $("audio").audioPlayer();
+      });
+    </script> -->
+    <script src="assets/js/jquery.fancybox.min.js"></script>
+    <script src="assets/js/videogallery.js"></script>
     <script src="assets/js/custom.js"></script>
     <!-- extra js  -->
   </body>

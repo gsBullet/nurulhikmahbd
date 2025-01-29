@@ -215,7 +215,7 @@ let calcScrollValue = () => {
         (document.documentElement.scrollHeight -
           document.documentElement.clientHeight)
     );
-  t > 100 ? (e.style.display = "grid") : (e.style.display = "none"),
+  t > 100 ? (e?.style?.display = "grid") : (e?.style?.display = "none"),
     e.addEventListener("click", () => {
       document.documentElement.scrollTop = 0;
     }),
