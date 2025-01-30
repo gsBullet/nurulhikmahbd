@@ -52,6 +52,18 @@
   line-height: 60px;
 }
 
+.portal-menu {
+  z-index: 1;
+  display: none;
+}
+@media (max-width: 1200px) {
+  .portal-menu {
+    display: block;
+  }
+}
+ul.namaz-timing-two li {
+  justify-content: start;
+}
 .notice-custom {
   display: flex;
   flex-direction: row;
@@ -163,6 +175,7 @@ header.two .two-bar:after {
   border-radius: 52px;
   /* bottom: 10px; */
   font-size: 15px;
+  margin-bottom: 10px;
 }
 
 /* Gallery Container */

@@ -1,5 +1,5 @@
-@media(max-width: 1400px){
-	.hero-section {
+@media (max-width: 1400px) {
+  .hero-section {
     padding-top: 240px;
     padding-bottom: 90px;
   }
@@ -77,7 +77,7 @@
   .sidebar {
     padding: 30px;
   }
-	.navbar-links li > a {
+  .navbar-links li > a {
     font-size: 14px;
   }
   .hero-section.two .hero-text h1 {
@@ -87,14 +87,14 @@
     font-size: 58px;
     line-height: 56px;
   }
-	.navbar-links li:not(:last-child) {
+  .navbar-links li:not(:last-child) {
     padding-right: 30px;
-	}
+  }
   .campaigns-text h5 a {
     font-size: 20px;
     line-height: 28px;
   }
-	.hero-text h1 {
+  .hero-text h1 {
     font-size: 60px;
   }
   .upcoming-text h4 a {
@@ -118,18 +118,18 @@
     padding-bottom: 38px;
     font-size: 20px;
     width: 91%;
-	}
-	.slider-home-1 .owl-dots {
+  }
+  .slider-home-1 .owl-dots {
     left: 8%;
     bottom: 26px;
-	}
+  }
   .recent-post a {
     font-size: 16px;
   }
   ul.recent-post span {
     font-size: 13px;
   }
-	.btn {
+  .btn {
     padding: 18px 36px;
   }
   .sidebar h3 {
@@ -141,7 +141,8 @@
   .our-blog.blog-two h5 {
     font-size: 30px;
   }
-  ul.namaz-timing-two li.timing-date,ul.namaz-timing-two li.namaz-timing-heading {
+  ul.namaz-timing-two li.timing-date,
+  ul.namaz-timing-two li.namaz-timing-heading {
     padding: 10px 25px;
   }
   .blog-man img {
@@ -156,7 +157,7 @@
   }
   .hero-img img {
     width: 50% !important;
-	}
+  }
   .opening-time-text h3 a {
     font-size: 24px;
   }
@@ -177,7 +178,7 @@
   .opening-time img {
     width: 84%;
   }
-	.namaz-time h4 {
+  .namaz-time h4 {
     font-size: 28px;
     padding-top: 6px;
     padding-bottom: 16px;
@@ -238,30 +239,33 @@
   }
   .namaz-time h5 {
     font-size: 18px;
-	}
-	.heading {
+  }
+  .heading {
     width: 66%;
   }
   .community img {
     width: 100%;
-	}
-	.community-text a {
+  }
+  .community-text a {
     font-size: 24px;
   }
   .community-text i {
     width: 90px;
     height: 90px;
     transform: translatey(-40px);
-	}
-	.logos-heading {
+  }
+  .logos-heading {
     margin-top: 100px;
   }
-  .blog figure, .blog figure img,.img-navigating img,.pillars-name > img {
+  .blog figure,
+  .blog figure img,
+  .img-navigating img,
+  .pillars-name > img {
     width: 100%;
-	}
-	.pillars-name {
+  }
+  .pillars-name {
     width: 19%;
-	}
+  }
   .support-us h6 {
     font-size: 40px;
     padding-top: 14px;
@@ -275,34 +279,34 @@
   .blog h5 a {
     line-height: 34px;
     font-size: 24px;
-	}
-	.footer-top {
+  }
+  .footer-top {
     padding-bottom: 60px;
     margin-bottom: 60px;
-	}
-	.Information ul li {
+  }
+  .Information ul li {
     padding-bottom: 22px;
   }
   .widget-title p {
     width: 90%;
-	}
-	.Information {
+  }
+  .Information {
     padding-bottom: 70px;
-	}
-	.islamic-ayat  img.ayat-with-img {
+  }
+  .islamic-ayat img.ayat-with-img {
     width: 43%;
-	}
-	.ayat-img {
+  }
+  .ayat-img {
     margin-top: 178px;
     margin-left: 40px;
-	}
+  }
   .wpo-lower-footer {
     padding-top: 24px;
     padding-bottom: 24px;
-	}
+  }
   .navigating-life {
     padding-left: 30px;
-	}
+  }
   .pillars-name a {
     font-size: 23px;
     padding-top: 15px;
@@ -318,37 +322,38 @@
   .support-us h4 {
     font-size: 40px;
     padding-bottom: 14px;
-	}
-	.logos-heading h3 {
+  }
+  .logos-heading h3 {
     font-size: 35px;
     padding-bottom: 30px;
   }
-	.courses-text a {
+  .courses-text a {
     font-size: 20px;
     line-height: 30px;
     padding-bottom: 14px;
   }
-	.community-text svg {
+  .community-text svg {
     width: 50px;
   }
   .community-text p {
     width: 97%;
-	}
-  h2 {
-      font-size: 46px;
   }
-	.real-history-book {
+  h2 {
+    font-size: 46px;
+  }
+  .real-history-book {
     margin-top: 18px;
-	}
-	.circle-text img.circle-text-img {
+  }
+  .circle-text img.circle-text-img {
     top: 6%;
     left: 18%;
   }
-  .blog-two img, .blog-two figure,
+  .blog-two img,
+  .blog-two figure,
   .real-history-book img,
   .real-history-book figure {
     width: 100%;
-	}
+  }
   .blog-two h5 {
     font-size: 24px;
     line-height: 32px;
@@ -361,17 +366,17 @@
   .gap {
     padding-top: 100px;
     padding-bottom: 100px;
-	}
+  }
   .masjid:before {
     width: 240px;
     height: 240px;
   }
-	.no-top {
+  .no-top {
     padding-top: 0;
-	}
-	.no-bottom {
+  }
+  .no-bottom {
     padding-bottom: 0;
-	}
+  }
   .masjid {
     padding-top: 120px;
     padding-bottom: 120px;
@@ -382,10 +387,12 @@
     line-height: 44px;
   }
 }
-@media(max-width: 1200px){
-	.two-bar:before,.two-bar:after,.top-bar {
+@media (max-width: 1200px) {
+  .two-bar:before,
+  .two-bar:after,
+  .top-bar {
     display: none;
-	}
+  }
   .search-popup .close-search {
     top: 6%;
     left: 82%;
@@ -449,33 +456,35 @@
     margin-top: 6px;
     font-size: 20px;
   }
-	header {
-		position: relative;
+  header {
+    position: relative;
     background-color: var(--common-colour);
-	}
-	.two-bar {
+  }
+  .two-bar {
     padding: 8px 0;
   }
-	.header-search,header .navbar {
-		display: none;
-	}
+  .header-search,
+  header .navbar {
+    display: none;
+  }
   .recent-post img {
     margin-right: 14px;
   }
   .sidebar {
     padding: 18px;
   }
-	.courses-text a {
+  .courses-text a {
     font-size: 18px;
     line-height: 28px;
     padding-bottom: 14px;
-	}
+  }
   .sidebar h3 {
     font-size: 20px;
   }
-	.bar-menu {
-		display: block;
-	}
+  .bar-menu {
+    display: block;
+  }
+
   .blog-details-style ul.list li {
     font-size: 16px;
     padding-left: 24px;
@@ -522,9 +531,9 @@
   .contact-us {
     padding: 40px;
   }
-	.bar-menu i {
-		color: #fff;
-	}
+  .bar-menu i {
+    color: #fff;
+  }
   .namaz-timing-schedule {
     width: 79%;
   }
@@ -535,9 +544,9 @@
   .travel-package {
     padding: 10px;
   }
-	.two-bar .d-flex.align-items-center.justify-content-between {
+  .two-bar .d-flex.align-items-center.justify-content-between {
     width: 100%;
-	}
+  }
   .learn-quran h4 {
     font-size: 30px;
     line-height: 38px;
@@ -602,116 +611,116 @@
   .opening-time-text h3 a {
     font-size: 22px !important;
   }
-	.bar-menu i {
-    margin-right: 0px; 
+  .bar-menu i {
+    margin-right: 0px;
     font-size: 26px;
-	}
-	.hero-section {
+  }
+  .hero-section {
     height: auto;
-	}
-	.hero-section {
+  }
+  .hero-section {
     padding-top: 120px;
     padding-bottom: 120px;
-	}
-	.courses-weeks {
+  }
+  .courses-weeks {
     padding: 14px 16px;
   }
-	.hero-text h1 {
+  .hero-text h1 {
     font-size: 48px;
-	}
-	.logos-heading h3 {
+  }
+  .logos-heading h3 {
     font-size: 32px;
   }
   h2 {
     font-size: 46px;
-	}
-	.slider-ayat.owl-carousel .owl-item img {
+  }
+  .slider-ayat.owl-carousel .owl-item img {
     width: 100%;
   }
   .heading {
     padding-bottom: 30px;
-	}
-	.navigating-life .location span {
+  }
+  .navigating-life .location span {
     font-size: 14px;
-	}
-	.navigating-life svg {
-		width: 16px;
-	}
-	.join-our-community h2 {
+  }
+  .navigating-life svg {
+    width: 16px;
+  }
+  .join-our-community h2 {
     width: 72%;
     font-size: 44px;
-	}
-	.Information ul li a {
+  }
+  .Information ul li a {
     font-size: 14px;
-	}
-	.blog h4 {
+  }
+  .blog h4 {
     font-size: 34px;
     width: 102px;
     height: 102px;
     padding-top: 17px;
-	}
-	.navigating-life {
+  }
+  .navigating-life {
     padding-left: 00px;
-	}
-	.navigating-life i {
+  }
+  .navigating-life i {
     font-size: 15px;
   }
   .blog-man img {
-  	width: 60px;
+    width: 60px;
   }
   .blog-man h6 {
     font-weight: 900;
     text-transform: capitalize;
     font-size: 14px;
-	}
-	.islamic-mosque h5 {
+  }
+  .islamic-mosque h5 {
     padding-top: 4px;
     padding-bottom: 28px;
     font-size: 16px;
-	}
-	.support-us h4 {
+  }
+  .support-us h4 {
     font-size: 32px;
     padding-bottom: 14px;
-	}
-	.courses .border {
+  }
+  .courses .border {
     height: 38px;
     margin-top: -21px;
-	}
-	.islamic-history p {
+  }
+  .islamic-history p {
     line-height: 26px;
     font-size: 16px;
-	}
-	.circle-text figure.circle-img {
+  }
+  .circle-text figure.circle-img {
     width: 152px;
     height: 152px;
   }
-	.islamic-history  a.btn {
+  .islamic-history a.btn {
     margin-top: 14px;
-	}
-	ul.list li {
+  }
+  ul.list li {
     font-size: 16px;
-	}
-	.circle-text figure.circle-img img {
+  }
+  .circle-text figure.circle-img img {
     width: 105px;
     padding: 24px;
-	}
-	.circle-text img.circle-text-img {
+  }
+  .circle-text img.circle-text-img {
     top: 6%;
     left: 18%;
     width: 64%;
-	}
-	.namaz-time h4 {
+  }
+  .namaz-time h4 {
     font-size: 22px;
   }
-	img.hero-img-style {
+  img.hero-img-style {
     width: 100% !important;
-	}
+  }
 }
-@media(max-width: 993px){
-	.gap {
+@media (max-width: 993px) {
+  .gap {
     padding-top: 80px;
     padding-bottom: 80px;
-	}
+  }
   .accordion .content {
     margin-bottom: 0;
   }
@@ -721,9 +730,9 @@
   .mb-80 {
     margin-bottom: 40px;
   }
-	.no-top {
+  .no-top {
     padding-top: 0;
-	}
+  }
   .no-bottom {
     padding-bottom: 0;
   }
@@ -739,7 +748,7 @@
   .scholars.scholars-details ul.social-media {
     right: 5%;
     top: 57%;
-  } 
+  }
   .courses-details h5 {
     font-size: 30px;
     line-height: 40px;
@@ -802,10 +811,10 @@
   .service:before {
     left: 66px;
   }
-	.slider-home-1 .owl-item img.hero-img-style {
+  .slider-home-1 .owl-item img.hero-img-style {
     height: 100% !important;
     object-fit: cover;
-	}
+  }
   .masjid {
     padding-top: 70px;
   }
@@ -817,7 +826,7 @@
     border-top: 0px;
     margin-top: 0;
   }
-	.namaz-time {
+  .namaz-time {
     border: 1px solid #bcbcbc;
   }
   .blog-two {
@@ -833,20 +842,22 @@
     margin-top: 40px;
     margin-bottom: 40px;
   }
-	.listen-holy .heading.two {
+  .listen-holy .heading.two {
     padding-top: 100px;
-	}
+  }
   .audioplayer-playpause {
     width: 40px;
     height: 40px;
   }
-	.hero-text p,.heading {
+  .hero-text p,
+  .heading {
     width: 100%;
-	}
+  }
   h2 {
     font-size: 40px;
   }
-  .audio-ayat #wrapper h4,.audio-ayat #wrapper h5 {
+  .audio-ayat #wrapper h4,
+  .audio-ayat #wrapper h5 {
     font-size: 14px;
     padding-left: 50px;
   }
@@ -874,7 +885,7 @@
   }
   .welcome-to-ibadat .heading.two {
     width: 100%;
-  } 
+  }
   .islamic-classes-time {
     margin-bottom: 40px;
   }
@@ -885,87 +896,88 @@
   .hero-img.two {
     justify-content: end;
   }
-	.support-us {
+  .support-us {
     padding-bottom: 60px;
     padding-top: 60px;
     border-radius: 0;
     margin-top: 40px;
-	}
-	.pillars-name {
+  }
+  .pillars-name {
     width: 31%;
     margin-right: 16px;
     margin-bottom: 30px;
-	}
-	.hero-section {
+  }
+  .hero-section {
     text-align: center;
-	}
-	.hero-img {
+  }
+  .hero-img {
     justify-content: center;
     margin-top: 40px;
-	}
-	.islamic-mosque {
-		width: 49.9%;
-		margin-bottom: 40px;
-	}
-	.pillars {
-		justify-content: start;
-		flex-wrap: wrap;
-	}
-	.ayat-img,.islamic-ayat img.ayat-with-img {
-		display: none;
-	}
-	.islamic-ayat {
-    margin-bottom: 100px;
-	}
-	.fun-facts {
-		flex-wrap: wrap;
-	}
-	.namaz-timing {
+  }
+  .islamic-mosque {
+    width: 49.9%;
+    margin-bottom: 40px;
+  }
+  .pillars {
+    justify-content: start;
     flex-wrap: wrap;
-	}
-	.namaz-time {
+  }
+  .ayat-img,
+  .islamic-ayat img.ayat-with-img {
+    display: none;
+  }
+  .islamic-ayat {
+    margin-bottom: 100px;
+  }
+  .fun-facts {
+    flex-wrap: wrap;
+  }
+  .namaz-timing {
+    flex-wrap: wrap;
+  }
+  .namaz-time {
     width: 33%;
     margin-top: 30px;
-	}
-	.circle-text {
+  }
+  .circle-text {
     margin-top: 17px;
     width: fit-content;
-	}
-	.hero-img img {
+  }
+  .hero-img img {
     width: 30% !important;
-	}
-	.circle-text img.circle-text-img {
+  }
+  .circle-text img.circle-text-img {
     top: 8%;
     left: 6%;
     width: 87%;
-	}
-	.community {
+  }
+  .community {
     margin-bottom: 40px;
-	}
-	.courses {
+  }
+  .courses {
     margin-bottom: 40px;
-	}
-	.courses-text a {
+  }
+  .courses-text a {
     font-size: 22px;
     line-height: 32px;
   }
   .logos li img {
     width: 100%;
-	}
-	.logos li {
+  }
+  .logos li {
     padding: 18px 28px;
     width: 33%;
-	}
-	.our-courses-section {
+  }
+  .our-courses-section {
     background-size: cover;
-	}
-	.navigating-life {
+  }
+  .navigating-life {
     margin-top: 60px;
-	}
-	.join-our-img {
-		display: none;
-	}
-	.join-our-community h2 {
+  }
+  .join-our-img {
+    display: none;
+  }
+  .join-our-community h2 {
     font-size: 33px;
     width: 98%;
   }
@@ -974,26 +986,26 @@
   }
   .blog {
     margin-bottom: 40px;
-	}
-	.Information {
+  }
+  .Information {
     padding-bottom: 0px;
     border: 0;
-	}
-	.wpo-lower-footer .border {
-    border: 1px solid #ffffff!important;
+  }
+  .wpo-lower-footer .border {
+    border: 1px solid #ffffff !important;
     height: 22px;
     margin: 0px 16px;
-	}
-	.wpo-lower-footer {
+  }
+  .wpo-lower-footer {
     margin-top: 60px;
     border-top: 1px solid;
-	}
-	.wpo-lower-footer {
-		margin-top: 60px;
-	}
+  }
+  .wpo-lower-footer {
+    margin-top: 60px;
+  }
 }
-@media(max-width: 768px){
-	h2 {
+@media (max-width: 768px) {
+  h2 {
     font-size: 38px;
   }
   .error {
@@ -1022,8 +1034,8 @@
     width: 70%;
   }
   .scholars.scholars-details .opening-time {
-      padding-left: 0px;
-      margin-bottom: 0;
+    padding-left: 0px;
+    margin-bottom: 0;
   }
   .map iframe {
     height: 300px;
@@ -1031,10 +1043,10 @@
   li.single-comment img {
     margin-right: 16px;
   }
-	.hero-section {
+  .hero-section {
     padding-top: 70px;
     padding-bottom: 80px;
-	}
+  }
   .about-scholar h4 {
     font-size: 30px;
   }
@@ -1086,13 +1098,15 @@
   .masjid-text h3 {
     font-size: 38px;
   }
-  .masjid-text h3,.masjid-text p,.masjid-text {
+  .masjid-text h3,
+  .masjid-text p,
+  .masjid-text {
     width: 100%;
   }
-	.connect-with {
+  .connect-with {
     margin-top: 34px;
-	}
-  .widget-title  ul.social-media {
+  }
+  .widget-title ul.social-media {
     margin-top: 20px;
   }
   footer.two {
@@ -1104,35 +1118,35 @@
   footer.two .widget-title {
     padding-top: 20px;
   }
-	.Information.widget-title {
+  .Information.widget-title {
     margin-top: 40px;
     margin-bottom: 40px;
-	}
-	.wpo-lower-footer p {
+  }
+  .wpo-lower-footer p {
     margin-bottom: 10px;
-	}
+  }
   .namaz-timing-schedule,
-	.owl-theme .owl-nav.disabled+.owl-dots {
+  .owl-theme .owl-nav.disabled + .owl-dots {
     width: 100%;
   }
   .slider-home-1 .owl-dots {
     left: -2%;
   }
-	.wpo-lower-footer {
+  .wpo-lower-footer {
     flex-wrap: wrap;
     justify-content: center;
-	}
-	.courses {
+  }
+  .courses {
     width: 100%;
   }
   .logos {
-  	flex-wrap: wrap;
+    flex-wrap: wrap;
   }
   .logos li {
     width: 45%;
     margin-bottom: 20px;
-	}
-	.pillars-name {
+  }
+  .pillars-name {
     width: 46%;
   }
   .join-our-community {
@@ -1140,15 +1154,15 @@
   }
   .navigating-life {
     margin-top: 26px;
-	}
-	.widget-title p {
+  }
+  .widget-title p {
     width: 100%;
-	}
+  }
   .leave-comment .btn {
     margin-top: 20px;
   }
 }
-@media(max-width: 576px){
+@media (max-width: 576px) {
   .gap {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -1189,14 +1203,17 @@
   .mobile-nav {
     width: 100%;
   }
-  .donation-collected .circle,.donation-collected .circle canvas {
+  .donation-collected .circle,
+  .donation-collected .circle canvas {
     width: 80px !important;
     height: 80px !important;
   }
-  .pagination li.prev a, .pagination li.next a {
+  .pagination li.prev a,
+  .pagination li.next a {
     font-size: 14px;
   }
-  .pagination li.prev, .pagination li.next {
+  .pagination li.prev,
+  .pagination li.next {
     width: 60px;
   }
   .courses-two {
@@ -1254,16 +1271,16 @@
   .program-img {
     padding-right: 0;
   }
-	.hero-text h1 {
+  .hero-text h1 {
     font-size: 38px;
-	}
-	.hero-img img {
+  }
+  .hero-img img {
     width: 50% !important;
-	}
+  }
   .hero-section.two .hero-text h1 {
     font-size: 38px;
   }
-	.namaz-time {
+  .namaz-time {
     width: 49%;
   }
   #countdown ul li span {
@@ -1271,8 +1288,8 @@
     line-height: 21px;
     padding: 0;
     padding-bottom: 4px;
-	}
-	p {
+  }
+  p {
     font-size: 14px;
   }
   .heading p {
@@ -1285,7 +1302,7 @@
     padding: 7px;
   }
 }
-@media(max-width: 500px){
+@media (max-width: 500px) {
   .comment h3 {
     font-size: 28px;
   }
@@ -1301,15 +1318,15 @@
   }
   .drop-caps-work p:first-letter {
     font-size: 70px;
-    margin-right: 20px
+    margin-right: 20px;
   }
 }
-@media(max-width: 480px){
-	.logos li {
+@media (max-width: 480px) {
+  .logos li {
     margin: 0;
     width: 100%;
     margin-bottom: 10px;
-	}
+  }
   .program-time {
     width: 91%;
     padding: 12px 14px;
@@ -1397,15 +1414,15 @@
     font-size: 14px;
     line-height: 24px;
   }
-	h2 {
+  h2 {
     font-size: 30px;
-	}
-	.navigating-life .video i {
+  }
+  .navigating-life .video i {
     width: 39px;
     height: 39px;
     margin-left: 11px;
     margin-right: 5px;
-	}
+  }
   .welcome-to-ibadat-established span {
     font-size: 12px;
   }
@@ -1416,7 +1433,7 @@
     padding-top: 18px;
     font-size: 29px;
   }
-	.navigating-life .video a {
+  .navigating-life .video a {
     font-size: 14px;
   }
   .audio-ayat .owl-nav {
@@ -1426,12 +1443,12 @@
   }
   .navigating-life .location span {
     font-size: 10px;
-	}
-	.btn {
+  }
+  .btn {
     font-size: 14px;
     padding: 16px 34px;
-	}
-	p {
+  }
+  p {
     font-size: 16px;
     line-height: 26px;
   }
@@ -1445,35 +1462,35 @@
     font-size: 16px;
     padding-bottom: 18px;
     padding-top: 4px;
-	}		
-	.support-us {
+  }
+  .support-us {
     padding: 40px;
-	}
+  }
   .wpo-lower-footer p {
-  	text-align: center;
+    text-align: center;
   }
   .wpo-lower-footer a {
     font-size: 14px;
-	}
-	.join-our-community p {
+  }
+  .join-our-community p {
     padding-top: 16px;
     padding-bottom: 20px;
     font-size: 18px;
   }
-	.navigating-life span {
+  .navigating-life span {
     padding-right: 12px;
-	}
-	.join-our-community h2 {
+  }
+  .join-our-community h2 {
     font-size: 28px;
     width: 100%;
-	}
-	.navigating-life svg {
-		width: 12px;
-	}
-	.navigating-life i {
+  }
+  .navigating-life svg {
+    width: 12px;
+  }
+  .navigating-life i {
     font-size: 12px;
-	}
-	.islamic-mosque {
+  }
+  .islamic-mosque {
     width: 100%;
   }
   .slider-ayat .owl-dots {
@@ -1481,7 +1498,7 @@
     position: relative;
     width: 100%;
     margin-top: 0px;
-	}
+  }
   .slider-ayat .owl-dots {
     left: 0%;
     bottom: -40px;
@@ -1491,10 +1508,10 @@
     margin-bottom: 25px;
   }
 }
-@media(max-width: 450px){
-	.logos-heading h3 {
+@media (max-width: 450px) {
+  .logos-heading h3 {
     font-size: 28px;
-	}
+  }
   .upcoming-text {
     padding: 20px;
   }
@@ -1526,7 +1543,8 @@
   .recent-post a {
     font-size: 18px;
   }
-  .pagination li.prev, .pagination li.next {
+  .pagination li.prev,
+  .pagination li.next {
     width: 54px;
   }
   .masjid:before {
@@ -1548,73 +1566,74 @@
     line-height: 31px;
     font-size: 30px;
   }
-	.footer-top {
+  .footer-top {
     border-bottom: 0;
     padding-bottom: 0px;
     margin-bottom: 50px;
-	}
-	.subscribe {
+  }
+  .subscribe {
     flex-wrap: wrap;
-	}
-	.subscribe button {
+  }
+  .subscribe button {
     margin-top: 6px;
     right: auto;
     top: auto;
     padding: 18px 40px;
     position: relative;
-	}
-	#countdown ul li {
+  }
+  #countdown ul li {
     margin-right: -10px;
-	}
-	.pillars-name figure {
+  }
+  .pillars-name figure {
     width: 75px;
     height: 75px;
-	}
-	.pillars-name figure img {
+  }
+  .pillars-name figure img {
     width: 52px;
-	}
-	.pillars-name {
+  }
+  .pillars-name {
     margin-right: 10px;
     width: 46%;
-	}
-	.ayat h5 {
+  }
+  .ayat h5 {
     font-size: 14px;
     padding: 5px 16px;
   }
-	.ayat h4 {
+  .ayat h4 {
     padding-top: 7px;
     font-size: 17px;
     padding-bottom: 20px;
     line-height: 26px;
-	}
-	.pillars-name a {
+  }
+  .pillars-name a {
     font-size: 20px;
-  	padding-left: 10px;
+    padding-left: 10px;
   }
 
   .pillars-name span {
     padding-left: 10px;
     font-size: 14px;
-	}
+  }
   .donation-collected .progressbar {
     margin-left: 30px;
   }
-  ol.breadcrumb a,ol.breadcrumb li {
+  ol.breadcrumb a,
+  ol.breadcrumb li {
     font-size: 14px;
     color: #fff;
   }
-  .breadcrumb-item+.breadcrumb-item::before {
-    padding-right: .4rem;
-    padding-left: .4rem;
+  .breadcrumb-item + .breadcrumb-item::before {
+    padding-right: 0.4rem;
+    padding-left: 0.4rem;
   }
 }
-@media(max-width: 410px){
+@media (max-width: 410px) {
   .upcoming-event #countdown {
     left: 16%;
     top: 42%;
   }
 }
-@media(max-width: 375px){
+@media (max-width: 375px) {
   ul.image-gallery li figure {
     width: 134px;
     height: 100px;

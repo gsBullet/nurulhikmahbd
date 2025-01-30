@@ -21,6 +21,7 @@
     <!-- JavaScript -->
     <script src="assets/js/jquery-3.6.0.min.js"></script>
     <script src="assets/js/preloader.js"></script>
+    <script src="./assets/js/custom.js"></script>
   </head>
 
   <body>
@@ -50,10 +51,10 @@
                 <div class="content-header">
                   <i class="fa fa-envelope text-warning fs-4"></i>
                   <a
-                    href="https://mail.google.com/mail/?view=cm&fs=1&to=nurulhikmahbd@gmail.com"
+                    href="https://mail.google.com/mail/?view=cm&fs=1&to=abcdegfh@gmail.com"
                     target="_blank"
                   >
-                    <h4>nurulhikmahbd@gmail.com</h4>
+                    <h4>abcdegfh@gmail.com</h4>
                   </a>
                 </div>
                 <div class="content-header">
@@ -90,9 +91,11 @@
             </div>
           </div>
         </div>
-        <div class="d-flex align-items-center justify-content-between">
-          <div class="bar-menu">
-            <a href="#" class="btn btn-warning btn-sm">Portal</a>
+
+        <!-- mobile menu  -->
+        <div class="d-flex align-items-center justify-content-around">
+          <div class="portal-menu">
+            <a href="#" class="btn custom-portal-btn">Portal</a>
           </div>
           <div class="bar-menu">
             <i class="fa-solid fa-bars"></i>
@@ -228,29 +231,74 @@
         </div>
         <ul>
           <li class="menu-item-has-children">
-            <a href="JavaScript:void(0)">Home</a>
-            <ul class="sub-menu">
-              <li><a href="index.html">home 1</a></li>
-              <li><a href="index-2.html">home 2</a></li>
-            </ul>
+            <a href="JavaScript:void(0)">হোম</a>
           </li>
-          <li><a href="about.html">about</a></li>
           <li class="menu-item-has-children">
-            <a href="JavaScript:void(0)">Courses</a>
+            <a href="JavaScript:void(0)">ক্যাম্পাস</a>
             <ul class="sub-menu">
               <li><a href="our-courses.html">our courses</a></li>
               <li><a href="courses-details.html">courses details</a></li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="JavaScript:void(0)">campaigns</a>
+            <a href="JavaScript:void(0)">ভর্তি</a>
+            <ul class="sub-menu">
+              <li><a href="our-courses.html">our courses</a></li>
+              <li><a href="courses-details.html">courses details</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="JavaScript:void(0)">একাডেমিক</a>
+            <ul class="sub-menu">
+              <li><a href="our-courses.html">our courses</a></li>
+              <li><a href="courses-details.html">courses details</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="JavaScript:void(0)">একাডেমিক প্রশাসন</a>
+            <ul class="sub-menu">
+              <li><a href="our-courses.html">our courses</a></li>
+              <li><a href="courses-details.html">courses details</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="JavaScript:void(0)">শিক্ষার্থী</a>
+            <ul class="sub-menu">
+              <li><a href="our-courses.html">our courses</a></li>
+              <li><a href="courses-details.html">courses details</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="JavaScript:void(0)">ফলাফল</a>
+            <ul class="sub-menu">
+              <li><a href="our-courses.html">our courses</a></li>
+              <li><a href="courses-details.html">courses details</a></li>
+            </ul>
+          </li>
+
+          <li class="menu-item-has-children">
+            <a href="JavaScript:void(0)">নোটিশ</a>
             <ul class="sub-menu">
               <li><a href="our-campaigns.html">our campaigns</a></li>
               <li><a href="campaign-details.html">campaign details</a></li>
             </ul>
           </li>
           <li class="menu-item-has-children">
-            <a href="JavaScript:void(0)">pages</a>
+            <a href="JavaScript:void(0)">কোর্স সমূহ</a>
+            <ul class="sub-menu">
+              <li><a href="our-campaigns.html">our campaigns</a></li>
+              <li><a href="campaign-details.html">campaign details</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="JavaScript:void(0)">নিউজ</a>
+            <ul class="sub-menu">
+              <li><a href="our-blog.html">our blog</a></li>
+              <li><a href="blog-details.html">blog details</a></li>
+            </ul>
+          </li>
+          <li class="menu-item-has-children">
+            <a href="JavaScript:void(0)">আরো দেখুন</a>
             <ul class="sub-menu">
               <li><a href="our-scholar.html">our scholar</a></li>
               <li><a href="scholar-details.html">scholar details</a></li>
@@ -259,13 +307,7 @@
               <li><a href="404.html">404</a></li>
             </ul>
           </li>
-          <li class="menu-item-has-children">
-            <a href="JavaScript:void(0)">News</a>
-            <ul class="sub-menu">
-              <li><a href="our-blog.html">our blog</a></li>
-              <li><a href="blog-details.html">blog details</a></li>
-            </ul>
-          </li>
+
           <li><a href="contact.html">Contact</a></li>
         </ul>
         <a href="JavaScript:void(0)" id="res-cross"></a>
@@ -306,12 +348,24 @@
                     <span>Begins</span>
                     <span>Jama’ah</span>
                   </li> -->
-                  <li class="timing-date">সবার জন্য নোটিশ</li>
-                  <li class="timing-date">শিক্ষক নোটিশ</li>
-                  <li class="timing-date">পরীক্ষার নোটিশ</li>
-                  <li class="timing-date">ভর্তি নোটিশ</li>
-                  <li class="timing-date">ফলাফল নোটিশ</li>
-                  <li class="timing-date">স্টাফ নোটিশ</li>
+                  <li class="timing-date">
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;সবার জন্য নোটিশ
+                  </li>
+                  <li class="timing-date">
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;শিক্ষক নোটিশ
+                  </li>
+                  <li class="timing-date">
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;পরীক্ষার নোটিশ
+                  </li>
+                  <li class="timing-date">
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;ভর্তি নোটিশ
+                  </li>
+                  <li class="timing-date">
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;ফলাফল নোটিশ
+                  </li>
+                  <li class="timing-date">
+                    <i class="fa-solid fa-angle-right"></i>&nbsp;স্টাফ নোটিশ
+                  </li>
                 </ul>
               </div>
             </div>
@@ -1369,7 +1423,7 @@
             <p>
               Your donations will help our community rebuild the House of Allah.
             </p>
-            <a href="#" class="btn">Contact Now</a>
+            <a href="#" class="btn" rel="noopener noreferrer">Contact Now</a>
           </div>
         </div>
       </div>
@@ -1384,10 +1438,16 @@
         <div class="row Information pb-0">
           <div class="col-lg-4 col-md-6">
             <div class="widget-title">
-              <h3>Information</h3>
-              <h4>309-313 Mill Rd, Cambridge, CB1 3DF,United State</h4>
+              <h3>যোগাযোগের ঠিকানা</h3>
+              <h4>৭ নং মুরাদপুর মাদ্রাসা রোড, জুরাইন, ঢাকা-১২০৪ ।</h4>
+              <h5><a href="callto:11111111">122233333</a></h5>
               <h5><a href="callto:254(98)2156213">+254 (98) 2156 213</a></h5>
-              <a href="mailto:username@domain.com">username@domain.com</a>
+              <a
+                href="https://mail.google.com/mail/?view=cm&fs=1&to=abcdegfh@gmail.com"
+                target="_blank"
+              >
+                abcdegfh@gmail.com
+              </a>
               <ul class="social-media">
                 <li>
                   <a href="#"><i class="fab fa-facebook-f icon"></i></a>
@@ -1406,43 +1466,44 @@
           </div>
           <div class="col-lg-4 col-md-6">
             <div class="widget-title">
-              <h3>Quick Links</h3>
+              <h3>গুরুত্বপূর্ণ লিঙ্কসমূহ</h3>
+
               <ul>
                 <li>
-                  <i class="fa-solid fa-angle-right"></i
-                  ><a href="our-courses.html">Online Courses</a>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="our-courses.html">শিক্ষা মন্ত্রনালয়</a>
                 </li>
                 <li>
-                  <i class="fa-solid fa-angle-right"></i
-                  ><a href="#">Audio Listening</a>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="#">মাধ্যমিক ও উচ্চমাধ্যমিক শিক্ষা বোর্ড, ঢাকা</a>
                 </li>
                 <li>
-                  <i class="fa-solid fa-angle-right"></i
-                  ><a href="#">Sehri & Iftar</a>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="#">মাধ্যমিক ও উচ্চশিক্ষা অধিদপ্তর</a>
                 </li>
                 <li>
-                  <i class="fa-solid fa-angle-right"></i
-                  ><a href="our-events.html">Our Events</a>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="our-events.html">জাতীয় বিশ্ববিদ্যালয়</a>
                 </li>
                 <li>
-                  <i class="fa-solid fa-angle-right"></i
-                  ><a href="#">Quran Hifz Classes</a>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="#">মাধ্যমিক ও উচ্চ শিক্ষা বিভাগ</a>
                 </li>
                 <li>
-                  <i class="fa-solid fa-angle-right"></i
-                  ><a href="about.html">About Ibadat</a>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="about.html">বাংলাদেশ কারিগরি শিক্ষা বোর্ড</a>
                 </li>
                 <li>
-                  <i class="fa-solid fa-angle-right"></i
-                  ><a href="#">Our Services</a>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="#">প্রধানমন্ত্রীর শিক্ষা সহায়তা ট্রাস্ট</a>
                 </li>
                 <li>
-                  <i class="fa-solid fa-angle-right"></i
-                  ><a href="#">Quran Hifz Classes</a>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="#">প্রধানমন্ত্রীর কার্যালয়</a>
                 </li>
                 <li class="pb-0">
-                  <i class="fa-solid fa-angle-right"></i
-                  ><a href="#">Urgent Donation</a>
+                  <i class="fa-solid fa-angle-right"></i>
+                  <a href="#">মন্ত্রীপরিষদ বিভাগ</a>
                 </li>
               </ul>
             </div>
@@ -1465,7 +1526,7 @@
             <div class="col-lg-8">
               <div class="wpo-lower-footer">
                 <p>
-                  Copyright ©<a href="#"><b>Ibadah</b></a
+                  Copyright ©<a href="#"><b>Bayyinah</b></a
                   >2024 . All rights reserved.
                 </p>
               </div>
@@ -1480,33 +1541,10 @@
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/circle-progres.js"></script>
-    <!-- fancybox -->
-    <!-- <script src="assets/js/audioplayer.js"></script> -->
-    <!-- <script>
-      $(function () {
-        $("audio").audioPlayer();
-      });
-    </script> -->
+    <!-- <script src="assets/js/circle-progres.js"></script> -->
+
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <script src="assets/js/videogallery.js"></script>
-    <script src="assets/js/custom.js"></script>
-    <!-- extra js  -->
-    <!-- extra js  -->
-    <script src="assets/js/bootstrap.min.js"></script>
-    <script src="assets/js/jquery.nice-select.min.js"></script>
-    <script src="assets/js/owl.carousel.min.js"></script>
-    <script src="assets/js/circle-progres.js"></script>
-    <!-- fancybox -->
-    <!-- <script src="assets/js/audioplayer.js"></script> -->
-    <!-- <script>
-      $(function () {
-        $("audio").audioPlayer();
-      });
-    </script> -->
-    <script src="assets/js/jquery.fancybox.min.js"></script>
-    <script src="assets/js/videogallery.js"></script>
-    <script src="assets/js/custom.js"></script>
     <!-- extra js  -->
   </body>
 </html>
