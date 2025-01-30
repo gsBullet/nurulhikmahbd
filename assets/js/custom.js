@@ -206,19 +206,19 @@ jQuery(document).ready(function (e) {
       });
     });
   });
-// let calcScrollValue = () => {
-//   let e = document.getElementById("progress");
-//   document.getElementById("progress-value");
-//   let t = document.documentElement.scrollTop,
-//     n = Math.round(
-//       (100 * t) /
-//         (document.documentElement.scrollHeight -
-//           document.documentElement.clientHeight)
-//     );
-//   t > 100 ? (e?.style?.display = "grid") : (e?.style?.display = "none"),
-//     e.addEventListener("click", () => {
-//       document.documentElement.scrollTop = 0;
-//     }),
-//     (e.style.background = `conic-gradient(#007d3a ${n}%, #fff ${n}%)`);
-// };
-// (window.onscroll = calcScrollValue), (window.onload = calcScrollValue);
+let calcScrollValue = () => {
+  let e = document.getElementById("progress");
+  document.getElementById("progress-value");
+  let t = document.documentElement.scrollTop,
+    n = Math.round(
+      (100 * t) /
+        (document.documentElement.scrollHeight -
+          document.documentElement.clientHeight)
+    );
+  t > 100 ? (e.style.display = "grid") : (e.style.display = "none"),
+    e.addEventListener("click", () => {
+      document.documentElement.scrollTop = 0;
+    }),
+    (e.style.background = `conic-gradient(#007d3a ${n}%, #fff ${n}%)`);
+};
+(window.onscroll = calcScrollValue), (window.onload = calcScrollValue);

@@ -94,6 +94,7 @@
 
         <!-- mobile menu  -->
         <div class="d-flex align-items-center justify-content-around">
+        
           <div class="portal-menu">
             <a href="#" class="btn custom-portal-btn">Portal</a>
           </div>
@@ -188,26 +189,22 @@
                 </svg>
                 +(00) 123-345-11
               </a>
-              <div class="header-search-button search-box-outer">
-                <a
-                  href="javascript:void(0)"
-                  class="search-btn"
-                  aria-label="Search"
-                >
-                  <svg
-                    height="24"
-                    viewBox="0 0 24 24"
-                    width="24"
-                    xmlns="http://www.w3.org/2000/svg"
-                    aria-hidden="true"
-                  >
-                    <g id="_12" data-name="12">
-                      <path
-                        d="m21.71 20.29-2.83-2.82a9.52 9.52 0 1 0 -1.41 1.41l2.82 2.83a1 1 0 0 0 1.42 0 1 1 0 0 0 0-1.42zm-17.71-8.79a7.5 7.5 0 1 1 7.5 7.5 7.5 7.5 0 0 1 -7.5-7.5z"
-                      ></path>
-                    </g>
-                  </svg>
-                </a>
+              <div class="searchBoxIcon">
+                <i
+                  class="fa fa-search fs-5 text-success"
+                  aria-hidden="true"
+                  id="searchIcon"
+                ></i>
+              </div>
+
+              <!-- Search Box (Initially Hidden) -->
+              <div id="searchBox" class="search-box">
+                <input
+                  type="text"
+                  class="form-control"
+                  placeholder="Search..."
+                />
+                <button onclick="closeSearchBox()">X</button>
               </div>
             </div>
           </div>
@@ -1536,15 +1533,21 @@
       </div>
     </footer>
 
+    <!-- progress -->
+    <div id="progress">
+      <span id="progress-value"><i class="fa-solid fa-up-long"></i></span>
+    </div>
+
     <!-- extra js  -->
 
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.nice-select.min.js"></script>
     <script src="assets/js/owl.carousel.min.js"></script>
-    <!-- <script src="assets/js/circle-progres.js"></script> -->
+    <script src="assets/js/circle-progres.js"></script>
 
     <script src="assets/js/jquery.fancybox.min.js"></script>
     <script src="assets/js/videogallery.js"></script>
+    <script src="assets/js/searchbox.js"></script>
     <!-- extra js  -->
   </body>
 </html>
