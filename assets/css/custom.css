@@ -20,7 +20,9 @@
 
 @font-face {
   font-family: "Syawal_Khidmat";
-  src: url("../font/Syawal_Khidmat.ttf") format("woff2");
+  src: url("../font/Syawal_Khidmat.woff2") format("woff2"),
+    url("../font/Syawal_Khidmat.ttf") format("truetype"),
+    url("../font/Syawal_Khidmat.otf") format("opentype");
 }
 .bg-0 {
   background: #fffff2 !important;
