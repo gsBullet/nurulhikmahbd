@@ -1216,8 +1216,8 @@
     height: 80px;
   }
   .arabic-header {
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 24px;
+    line-height: 20px;
   }
   .travel-package h5,
   .notice-header,
@@ -1464,8 +1464,8 @@
     height: 80px;
   }
   .arabic-header {
-    font-size: 18px;
-    line-height: 18px;
+    font-size: 22px;
+    line-height: 20x;
   }
   .travel-package h5,
   .notice-header,
@@ -1716,7 +1716,7 @@
   }
   .btn {
     font-size: 14px;
-    padding: 16px 34px;
+    /* padding: 16px 34px; */
   }
   p {
     font-size: 16px;
@@ -1840,7 +1840,7 @@
     z-index: 1;
     border: 0;
     background-color: var(--theme-colour);
-    /* padding: 20px 43px; */
+    padding: 11px 22px;
     border-radius: 55px;
     color: #000;
     font-weight: bold;
@@ -2319,7 +2319,7 @@
     z-index: 1;
     border: 0;
     background-color: var(--theme-colour);
-    /* padding: 20px 43px; */
+    padding: 8px 16px;
     border-radius: 55px;
     color: #000;
     font-weight: bold;
