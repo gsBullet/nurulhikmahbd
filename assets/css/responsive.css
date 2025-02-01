@@ -893,9 +893,7 @@
     left: 7%;
     width: 52% !important;
   }
-  .hero-img.two {
-    /* justify-content: end; */
-  }
+  
   .support-us {
     padding-bottom: 60px;
     padding-top: 60px;
@@ -1508,8 +1506,6 @@
     margin-bottom: 25px;
   }
 
-
-
   .header-logo {
     width: unset;
     height: 55px;
@@ -1547,7 +1543,7 @@
   .short-description-paragraph,
   .banner-paragraph {
     font-size: 14px !important;
-    line-height: 14px;
+    line-height: 20px;
   }
   .btn {
     text-transform: capitalize;
@@ -1748,7 +1744,7 @@
   .short-description-paragraph,
   .banner-paragraph {
     font-size: 14px !important;
-    line-height: 14px;
+    line-height: 20px;
   }
   .btn {
     text-transform: capitalize;
@@ -1793,7 +1789,6 @@
   .scholars .opening-time {
     margin-bottom: 0px;
   }
-  
 }
 @media (max-width: 410px) {
   .upcoming-event #countdown {
@@ -1863,7 +1858,7 @@
   .short-description-paragraph,
   .banner-paragraph {
     font-size: 14px !important;
-    line-height: 14px;
+    line-height: 20px;
   }
   .btn {
     text-transform: capitalize;
@@ -1966,7 +1961,7 @@
   .short-description-paragraph,
   .banner-paragraph {
     font-size: 14px !important;
-    line-height: 14px;
+    line-height: 20px;
   }
   .btn {
     text-transform: capitalize;

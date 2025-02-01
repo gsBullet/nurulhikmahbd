@@ -177,7 +177,7 @@ header.two .two-bar:after {
   border-radius: 52px;
   /* bottom: 10px; */
   font-size: 15px;
-  margin-bottom: 10px;
+  /* margin-bottom: 10px; */
 }
 
 /* Gallery Container */
@@ -230,7 +230,6 @@ header.two .two-bar:after {
 
 .gallery-item:hover .overlay {
   bottom: 0;
-  
 }
 
 .overlay p {
@@ -245,8 +244,8 @@ header.two .two-bar:after {
 
 .gallery-video {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-  gap: 15px;
+  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+  gap: 30px;
   padding: 20px;
 }
 
@@ -366,4 +365,29 @@ header.two .two-bar:after {
   color: black;
   background-color: yellow;
   border-color: antiquewhite;
+}
+
+.masjid-text h3 {
+  font-size: 45px;
+  line-height: 45px;
+  padding-bottom: 20px;
+}
+.widget-title h5 a {
+  font-size: 20px;
+}
+
+.widget-title ul.social-media {
+  margin-top: 25px;
+}
+
+ul.social-media i {
+  height: 34px;
+  width: 34px;
+}
+
+.widget-title h5 a {
+  border-bottom: none;
+}
+.widget-title h5 a:hover {
+  border-bottom: 2px solid;
 }
