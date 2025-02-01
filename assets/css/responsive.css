@@ -715,6 +715,10 @@
   img.hero-img-style {
     width: 100% !important;
   }
+  gap {
+    margin-top: 70px;
+    margin-bottom: 70px;
+  }
 }
 @media (max-width: 993px) {
   .gap {
@@ -831,6 +835,7 @@
   }
   .blog-two {
     margin-bottom: 40px;
+    padding: 8px 25px;
   }
   .scholar-two h4 span {
     display: inline;
@@ -1239,7 +1244,7 @@
   }
   .short-description-paragraph,
   .banner-paragraph {
-    font-size: 14px !important;
+    font-size: 14px;
     line-height: 20px;
   }
   .btn {
@@ -1256,10 +1261,11 @@
     z-index: 1;
     border: 0;
     background-color: var(--theme-colour);
-    /* padding: 20px 43px; */
+    padding: 12px 22px;
     border-radius: 55px;
     color: #000;
     font-weight: bold;
+    margin-top: 15px;
   }
   .btn:after {
     background-color: #1c1e211f;
@@ -1301,6 +1307,13 @@
   }
 }
 @media (max-width: 576px) {
+  /* .Information ul {
+    flex-direction: column;
+  } */
+  .important-rule {
+    flex-direction: column;
+    align-items: center;
+  }
   .gap {
     padding-top: 20px;
     padding-bottom: 20px;
@@ -1476,7 +1489,7 @@
   }
   .short-description-paragraph,
   .banner-paragraph {
-    font-size: 14px !important;
+    font-size: 14px;
     line-height: 20px;
   }
   .btn {
@@ -1527,6 +1540,8 @@
   }
   .hero-text p {
     padding-bottom: 4px;
+    line-height: 20px;
+    font-size: 14px;
   }
   .hero-img {
     justify-content: center;
@@ -1792,9 +1807,12 @@
     margin-bottom: 10px;
   }
   .princliple-speech,
-  .short-description-paragraph,
+  .short-description-paragraph {
+    font-size: 16px;
+    line-height: 20px;
+  }
   .banner-paragraph {
-    font-size: 14px !important;
+    font-size: 14px;
     line-height: 20px;
   }
   .video {
@@ -1858,6 +1876,8 @@
   }
   .hero-text p {
     padding-bottom: 4px;
+    font-size: 13px;
+    line-height: 25px;
   }
   .hero-img {
     justify-content: center;
@@ -2019,12 +2039,12 @@
     margin-bottom: 10px;
   }
   .short-description-paragraph {
-    font-size: 12px !important;
+    font-size: 14px ;
     line-height: 20px;
   }
   .banner-paragraph {
-    font-size: 10px !important;
-    line-height: 10px;
+    font-size: 14px;
+    line-height: 14px;
   }
   .btn {
     text-transform: capitalize;
@@ -2147,11 +2167,14 @@
   .bar-menu i {
     font-size: 18px;
   }
-  .short-description-heading,
-  .banner-heading {
+  .short-description-heading {
     font-size: 17px;
     line-height: 20px;
     margin-bottom: 10px;
+  }
+  .banner-heading {
+    font-size: 30px;
+    line-height: 45px;
   }
 
   .banner-paragraph {
@@ -2159,7 +2182,7 @@
     line-height: 20px;
   }
   .short-description-paragraph {
-    font-size: 11px !important;
+    font-size: 13px;
     line-height: 20px;
   }
   .btn {
@@ -2180,6 +2203,7 @@
     border-radius: 55px;
     color: #000;
     font-weight: bold;
+    margin-top: 10px;
   }
   .btn:after {
     background-color: #1c1e211f;
@@ -2223,7 +2247,7 @@
 @media (max-width: 375px) {
   .gap {
     padding-top: 20px;
-    padding-bottom: 20px;
+    padding-bottom: 0px;
   }
   ul.image-gallery li figure {
     width: 134px;
@@ -2245,13 +2269,13 @@
     height: 55px;
   }
   .arabic-header {
-    font-size: 12px !important;
-    line-height: 12px;
+    font-size: 20px;
+    line-height: 20px;
   }
   .travel-package h5,
   .notice-header,
   .madrasah-header {
-    font-size: 18px !important;
+    font-size: 18px;
     line-height: 18px;
   }
 
@@ -2268,17 +2292,17 @@
   .bar-menu i {
     font-size: 18px;
   }
-  .short-description-paragraph,
   .short-description-heading {
     font-size: 18px;
     line-height: 18px;
     margin-bottom: 10px;
+  } 
+  .short-description-paragraph {
+    font-size: 14px;
+    line-height: 21px;
+    margin-bottom: 10px;
   }
 
-  .banner-paragraph {
-    font-size: 10px !important;
-    line-height: 10px;
-  }
   .btn {
     text-transform: capitalize;
     border-radius: 50px;
@@ -2328,6 +2352,8 @@
 
   .hero-text p {
     padding-bottom: 4px;
+    font-size: 16px;
+    line-height: 25px;
   }
   .hero-img {
     justify-content: center;
