@@ -722,8 +722,11 @@
 }
 @media (max-width: 993px) {
   .gap {
-    padding-top: 80px;
-    padding-bottom: 80px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .notice-marque{
+    padding-top: 15px;
   }
   .accordion .content {
     margin-bottom: 0;
@@ -1213,7 +1216,7 @@
     height: 80px;
   }
   .arabic-header {
-    font-size: 18px !important;
+    font-size: 18px;
     line-height: 18px;
   }
   .travel-package h5,
@@ -1315,7 +1318,7 @@
     /* align-items: center; */
   }
   .Information ul li {
-    width:  100%;
+    width: 100%;
   }
   .gap {
     padding-top: 20px;
@@ -1461,7 +1464,7 @@
     height: 80px;
   }
   .arabic-header {
-    font-size: 18px !important;
+    font-size: 18px;
     line-height: 18px;
   }
   .travel-package h5,
@@ -1780,14 +1783,14 @@
     height: 55px;
   }
   .arabic-header {
-    font-size: 12px !important;
-    line-height: 12px;
+    font-size: 15px;
+    line-height: 20px;
   }
   .travel-package h5,
   .notice-header,
   .madrasah-header {
-    font-size: 18px !important;
-    line-height: 18px;
+    font-size: 20px !important;
+    line-height: 20px;
   }
 
   .custom-portal-btn {
@@ -2012,8 +2015,8 @@
     height: 55px;
   }
   .arabic-header {
-    font-size: 12px !important;
-    line-height: 12px;
+    font-size: 15px;
+    line-height: 20px;
   }
   .travel-package h5,
   .notice-header,
@@ -2042,7 +2045,7 @@
     margin-bottom: 10px;
   }
   .short-description-paragraph {
-    font-size: 14px ;
+    font-size: 14px;
     line-height: 20px;
   }
   .banner-paragraph {
@@ -2120,10 +2123,6 @@
     width: unset;
     height: 55px;
   }
-  .arabic-header {
-    font-size: 12px !important;
-    line-height: 12px;
-  }
   .madrasah-header {
     font-size: 18px !important;
     line-height: 18px;
@@ -2147,8 +2146,8 @@
     height: 55px;
   }
   .arabic-header {
-    font-size: 12px !important;
-    line-height: 12px;
+    font-size: 16px;
+    line-height: 20px;
   }
   .travel-package h5,
   .notice-header,
@@ -2272,7 +2271,7 @@
     height: 55px;
   }
   .arabic-header {
-    font-size: 20px;
+    font-size: 15px;
     line-height: 20px;
   }
   .travel-package h5,
@@ -2299,7 +2298,7 @@
     font-size: 18px;
     line-height: 18px;
     margin-bottom: 10px;
-  } 
+  }
   .short-description-paragraph {
     font-size: 14px;
     line-height: 21px;
