@@ -1312,7 +1312,10 @@
   } */
   .important-rule {
     flex-direction: column;
-    align-items: center;
+    /* align-items: center; */
+  }
+  .Information ul li {
+    width:  100%;
   }
   .gap {
     padding-top: 20px;
