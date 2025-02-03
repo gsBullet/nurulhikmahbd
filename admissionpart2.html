@@ -290,7 +290,7 @@
         <br>
         <p class="fs-6">তালিবে ইলমের তথ্য:</p>
         <br>
-        <form action="/admissionpart3.html">
+        <form id="myFromPart">
           <div class="row">
             <div class="form-group mb-4 col-lg-5 col-md-5">
               <label class="form-label" for="">*তালিবে ইলমের নাম</label>
@@ -590,5 +590,18 @@
 
     const hijriDate = await convertToHijri(this.value);
     document.getElementById("hijriDate").value = hijriDate;
+  });
+</script>
+
+
+<script>
+  document.getElementById("myFromPart").addEventListener("submit", function (event) {
+    event.preventDefault(); // Prevent form submission
+
+    if (this.checkValidity()) {
+      window.location.href = "/admissionpart3.html"
+    } else {
+      this.reportValidity(); // Show validation messages if fields are missing
+    }
   });
 </script>
