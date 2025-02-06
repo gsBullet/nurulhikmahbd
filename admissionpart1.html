@@ -545,11 +545,11 @@
             <h4 class="btn-check-header">উপরোক্ত লেখাটি কি আপনি মনোযোগ সহকারে পাঠ করেছেন?</h4>
 
             <div class="checkbox-container">
-              <input type="checkbox" id="confirm">
+              <input type="checkbox" id="confirm_hifjo">
               <label for="confirm">জি আলহামদুলিল্লাহ</label>
             </div>
 
-            <button class="btn-chech-confirm" id="nextBtn" disabled>Next</button>
+            <button class="btn-chech-confirm" id="nextBtn_hifjo" disabled>Next</button>
           </div>
         </div>
 
@@ -715,6 +715,25 @@
 
   nextButtonKitab.addEventListener('click', () => {
     window.location.href = "./admissionkitab1.html";
+  });
+</script>
+
+<script>
+  const checkboxHifjo = document.getElementById("confirm_hifjo");
+  const nextButtonHifjo = document.getElementById("nextBtn_hifjo");
+
+  checkboxHifjo.addEventListener("change", function () {
+    if (this.checked) {
+      nextButtonHifjo.classList.add("active");
+      nextButtonHifjo.disabled = false;
+    } else {
+      nextButtonHifjo.classList.remove("active");
+      nextButtonHifjo.disabled = true;
+    }
+  });
+
+  nextButtonHifjo.addEventListener('click', () => {
+    window.location.href = "./admissionhifjo1.html";
   });
 </script>
 
