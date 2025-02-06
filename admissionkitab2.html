@@ -604,9 +604,8 @@
     event.preventDefault(); // Prevent form submission
 
     if (this.checkValidity()) {
-      alert("জাজাকাল্লাহ, আল্লাহ আমাদের দ্বীনের পথে চলার তাওফিক দান করুন!! 🤲");
+      window.location.href = './success.html';
       this.reset(); // Optionally reset the form after submission
-      window.location.href = './index.html';
     } else {
       this.reportValidity(); // Show validation messages if fields are missing
     }
