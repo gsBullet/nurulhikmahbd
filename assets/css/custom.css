@@ -39,7 +39,7 @@
 }
 .header-logo {
   width: unset;
-  height: 145px;
+  height: 130px;
 }
 .header-title {
   font-family: "Syawal_Khidmat", Arial, sans-serif !important;
@@ -57,7 +57,6 @@
   font-size: 42px;
   line-height: 50px;
   font-family: "Noto Sans Bengali", "Siyam Rupali", "SolaimanLipi", sans-serif;
-
 }
 
 .portal-menu {
@@ -537,7 +536,7 @@ label {
   margin-bottom: 32px;
   font-weight: normal;
 }
-.banner-heading{
+.banner-heading {
   font-size: 25px;
   line-height: 30px;
   margin-bottom: 25px;

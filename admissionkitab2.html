@@ -22,7 +22,7 @@
   <!-- JavaScript -->
   <script src="assets/js/jquery-3.6.0.min.js"></script>
   <script src="assets/js/preloader.js"></script>
-  <script src="./assets/js/custom.js"></script>
+  <script src="assets/js/custom.js"></script>
 </head>
 
 <body>
@@ -294,115 +294,171 @@
 
   <!-- End of Header Section -->
 
-
   <!-- form start  -->
-  <section>
+  <div class="container">
+    <div class="card mt-5 border-0">
+      <h4 class="text-center fw-bolder">বিসমিল্লাহির রহমানির রহীম</h4>
+      <br>
+      <h6 class="text-center">দাখেলার আবেদনপত্র</h6>
+      <br>
+      <p class="fs-6">অভিভাবকের তথ্য:</p>
+      <br>
+      <form id="submit_by_kitab">
+        <div class="row">
+          <div class="form-group mb-4 col-lg-5 col-md-5">
+            <label class="form-label" for="">*অভিভাবকের নাম</label>
+            <input required type="text" class="form-control" placeholder="অভিভাবকের নাম">
+          </div>
 
-    <div class="container">
-      <div class="card mt-5 border-0">
-        <h4 class="text-center fw-bolder">বিসমিল্লাহির রহমানির রহীম</h4>
-        <br>
-        <h6 class="text-center">দাখেলার আবেদনপত্র</h6>
-        <br>
-        <p class="fs-6">তালিবে ইলমের তথ্য:</p>
-        <br>
-        <form id="myFromPart">
+          <div class="form-group mb-4 col-lg-5 col-md-5">
+            <label required class="form-label" for="">*তালিবে ইলমের সাথে সম্পর্ক</label>
+            <div class="row ms-3">
+              <div class="form-check col-3">
+                <input required class="form-check-input" type="radio" name="bangla" id="mother">
+                <label class="form-check-label" for="mother">মা</label>
+              </div>
+              <div class="form-check col-3 ">
+                <input class="form-check-input" type="radio" name="bangla" id="father">
+                <label class="form-check-label" for="father">বাবা</label>
+              </div>
+
+            </div>
+          </div>
+        </div>
+        <div class="form-group mb-4 col-lg-12 col-md-12">
+          <label class="form-label" for="">অভিভাবকের শিক্ষাগত যোগ্যতা</label>
+          <input type="text" class="form-control" placeholder="অভিভাবকের শিক্ষাগত যোগ্যতা">
+        </div>
+
+
+
+        <!-- Learning History -->
+        <div class="mb-3">
+          <label class="form-label ">* অভিভাবকের পেশা এবং কর্মস্থল বিস্তারিত </label>
+          <textarea required class="form-control" name="study_details" rows="4" placeholder="এখানে লিখুন..."></textarea>
+        </div>
+
+
+        <div class="form-group mb-4 col-lg-12 col-md-12">
+          <label class="form-label" for="">* সন্তান কত জন</label>
+          <select required class="form-select" name="" id="">
+            <option value=""></option>
+            <option value="1">1</option>
+            <option value="2">2</option>
+            <option value="3">3</option>
+            <option value="4">4</option>
+            <option value="5">5</option>
+            <option value="6">6</option>
+            <option value="7">7</option>
+            <option value="8">8</option>
+            <option value="9">9</option>
+            <option value="10">10</option>
+            <option value="11">11</option>
+          </select>
+
+        </div>
+        <div class="row">
+          <div class="form-group col-lg-4">
+            <label for="">যোগাযোগ নাম্বার ১ (ঐচ্ছিক)</label>
+            <input required type="text" class="form-control">
+
+          </div>
+          <div class="form-group col-lg-4">
+            <label for="">যোগাযোগ নাম্বার ২ (ঐচ্ছিক)</label>
+            <input required type="text" class="form-control">
+
+          </div>
+          <div class="form-group col-lg-4">
+            <label for="">যোগাযোগ নাম্বার ৩</label>
+            <input type="text" class="form-control">
+
+          </div>
+
+        </div>
+
+        <h5 class="my-3">
+          স্থায়ী ঠিকানা:
+        </h5>
+        <div class="row">
+          <div class="form-group col-lg-4">
+            <label for="" class="form-group">*বাসা ও সড়ক (নাম/নাম্বার)</label>
+            <input required type="text" class="form-control">
+          </div>
+          <div class="form-group col-lg-4">
+            <label for="" class="form-group">*গ্রাম/মহল্লা</label>
+            <input required type="text" class="form-control">
+          </div>
+          <div class="form-group col-lg-4">
+            <label for="" class="form-group">*ডাকঘর</label>
+            <input required type="text" class="form-control">
+          </div>
+        </div>
+        <div class="row mt-5">
+          <div class="form-group col-lg-4">
+            <label for="" class="form-group">*বিভাগ</label>
+            <input required type="text" class="form-control">
+          </div>
+
+          <div class="form-group col-lg-4">
+            <label for="" class="form-group">*জেলা</label>
+            <input required type="text" class="form-control">
+          </div>
+
+          <div class="form-group col-lg-4">
+            <label for="" class="form-group">*উপজেলা/থানা</label>
+            <input required type="text" class="form-control">
+          </div>
+        </div>
+
+        <div class="form-group my-5">
+          <input type="checkbox" id="address_by_kitab">
+          <label for="">
+            স্থায়ী ও অস্থায়ী ঠিকানা একই</label>
+        </div>
+
+        <div class=" d-block" id="residential_non_redintial_by_kitab">
           <div class="row">
-            <div class="form-group mb-4 col-lg-5 col-md-5">
-              <label class="form-label" for="">*তালিবে ইলমের নাম</label>
-              <input required type="text" class="form-control" placeholder="তালিবে ইলমের নাম">
+            <div class="form-group col-lg-4">
+              <label for="" class="form-group">*বাসা ও সড়ক (নাম/নাম্বার)</label>
+              <input required type="text" class="form-control">
             </div>
-            <div class="form-group mb-4 col-lg-5 col-md-5">
-              <label class="form-label" for="">*তালিবে ইলমের বাবার নাম</label>
-              <input required type="text" class="form-control" placeholder="তালিবে ইলমের বাবার নাম">
+            <div class="form-group col-lg-4">
+              <label for="" class="form-group">*গ্রাম/মহল্লা</label>
+              <input required type="text" class="form-control">
             </div>
-
-            <div class="form-group mb-4 col-lg-5 col-md-5">
-              <label class="form-label" for="">*তালিবে ইলমের ইংরেজি জন্মতারিখ (তারিখ-মাস-বছর)</label>
-              <input required type="date" class="form-control" id="gregorianDate" placeholder="Select Date of Birth">
-            </div>
-
-            <div class="form-group mb-4 col-lg-5 col-md-5">
-              <label class="form-label" for="">তালিবে ইলমের হিজরী জন্মতারিখ</label>
-              <input type="text" class="form-control" id="hijriDate" readonly>
-            </div>
-
-            <div class="form-group mb-4 col-lg-10 col-md-10">
-              <label class="form-label" for="">তালিবে ইলমের হিজরী জন্মতারিখ</label>
-              <input type="text" class="form-control" id="age" readonly>
+            <div class="form-group col-lg-4">
+              <label for="" class="form-group">*ডাকঘর</label>
+              <input required type="text" class="form-control">
             </div>
           </div>
-          <div class="form-group mb-3">
-            <label class="form-label  ">* বাংলা কী পরিমাণ পড়তে পারে?</label>
-            <div class="form-check">
-              <input required class="form-check-input" type="radio" name="bangla" value="অক্ষর চেনে" id="bangla1">
-              <label class="form-check-label" for="bangla1">অক্ষর চেনে</label>
+          <div class="row mt-5">
+            <div class="form-group col-lg-4">
+              <label for="" class="form-group">*বিভাগ</label>
+              <input required type="text" class="form-control">
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="bangla" value="বানান করে পড়তে পারে" id="bangla2">
-              <label class="form-check-label" for="bangla2">বানান করে পড়তে পারে</label>
+
+            <div class="form-group col-lg-4">
+              <label for="" class="form-group">*জেলা</label>
+              <input required type="text" class="form-control">
             </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="bangla" value="বানান ছাড়া পড়তে পারে" id="bangla3">
-              <label class="form-check-label" for="bangla3">বানান ছাড়া পড়তে পারে</label>
-            </div>
-            <div class="form-check">
-              <input class="form-check-input" type="radio" name="bangla" value="অন্যান্য" id="bangla4">
-              <label class="form-check-label" for="bangla4">অন্যান্য</label>
+
+            <div class="form-group col-lg-4">
+              <label for="" class="form-group">*উপজেলা/থানা</label>
+              <input required type="text" class="form-control">
             </div>
           </div>
+        </div>
 
-          <!-- Arabic Reading Ability -->
-          <div class="form-group mb-3">
-            <label class="form-label ">* আরবি পড়ার অবস্থা</label>
+        <!-- Buttons -->
+        <div class="d-flex justify-content-between my-4">
+          <a class="btn" href="/admissionpart2.html">Back</a>
+          <button type="submit" class="btn">Submit</button>
+        </div>
 
-            <div class="row ">
-              <div class="form-check ">
-                <input required class="form-check-input" type="radio" name="arabic" value="বুকফ চেনে" id="arabic1">
-                <label class="form-check-label" for="arabic1">বুকফ চেনে</label>
-              </div>
-              <div class="form-check ">
-                <input class="form-check-input" type="radio" name="arabic" value="কায়দা পড়ে" id="arabic2">
-                <label class="form-check-label" for="arabic2">কায়দা পড়ে</label>
-              </div>
-              <div class="form-check ">
-                <input class="form-check-input" type="radio" name="arabic" value="নাজেরা পড়ে" id="arabic3">
-                <label class="form-check-label" for="arabic3">নাজেরা পড়ে</label>
-              </div>
-              <div class="form-check">
-                <input class="form-check-input" type="radio" name="arabic" value="অন্যান্য" id="arabic4">
-                <label class="form-check-label" for="arabic4">অন্যান্য</label>
-              </div>
-
-            </div>
-          </div>
-
-          <!-- Learning History -->
-          <div class="mb-3">
-            <label class="form-label  ">* এখন পর্যন্ত তার পড়াশোনার বিবরণ (আগে কোথায় পড়েছে? কি কি
-              পড়েছে?)</label>
-            <textarea required class="form-control" name="study_details" rows="4"
-              placeholder="এখানে লিখুন..."></textarea>
-          </div>
-
-          <!-- File Upload -->
-          <div class="mb-3">
-            <label class="form-label">* তালিবে ইলামের বর্তমান পূর্ণাঙ্গ ছবি দিন (jpg, jpeg,
-              png)</label>
-            <input required type="file" class="form-control" name="student_photo" accept="image/jpeg, image/png">
-          </div>
-
-          <!-- Buttons -->
-          <div class="d-flex justify-content-between my-4">
-            <a href='/admissionpart1.html' class="btn">Back</a>
-            <button type="submit" class="btn">Next</button>
-          </div>
-        </form>
-      </div>
-
+      </form>
     </div>
 
-  </section>
+  </div>
 
   <!-- form end -->
 
@@ -524,51 +580,33 @@
 </html>
 
 
+
+
 <script>
-  function calculateAge(birthDate) {
-    const today = new Date();
-    let age = today.getFullYear() - birthDate.getFullYear();
-    const monthDiff = today.getMonth() - birthDate.getMonth();
-    if (monthDiff < 0 || (monthDiff === 0 && today.getDate() < birthDate.getDate())) {
-      age--;
+  const address = document.getElementById("address_by_kitab");
+  const sameAddress = document.getElementById("residential_non_redintial_by_kitab");
+
+  address.addEventListener("change", function () {
+    if (this.checked) {
+      sameAddress.classList.remove('d-block');
+      sameAddress.classList.add('d-none');
+    } else {
+      sameAddress.classList.remove('d-none');
+      sameAddress.classList.add('d-block');
     }
-    return age;
-  }
-
-  async function convertToHijri(dateString) {
-    const [year, month, day] = dateString.split('-').map(Number);
-    const url = `https://api.aladhan.com/v1/gToH?date=${day}-${month}-${year}`;
-
-    try {
-      const response = await fetch(url);
-      const data = await response.json();
-      if (data.code === 200) {
-        return data.data.hijri.date;
-      } else {
-        return "Error converting date";
-      }
-    } catch (error) {
-      console.error("Error fetching Hijri date:", error);
-      return "Error fetching date";
-    }
-  }
-
-  document.getElementById("gregorianDate").addEventListener("change", async function () {
-    const birthDate = new Date(this.value);
-    document.getElementById("age").value = calculateAge(birthDate) + " years";
-
-    const hijriDate = await convertToHijri(this.value);
-    document.getElementById("hijriDate").value = hijriDate;
   });
+
+
 </script>
 
-
 <script>
-  document.getElementById("myFromPart").addEventListener("submit", function (event) {
+  document.getElementById("submit_by_kitab").addEventListener("submit", function (event) {
     event.preventDefault(); // Prevent form submission
 
     if (this.checkValidity()) {
-      window.location.href = "./admissionpart3.html"
+      alert("জাজাকাল্লাহ, আল্লাহ আমাদের দ্বীনের পথে চলার তাওফিক দান করুন!! 🤲");
+      this.reset(); // Optionally reset the form after submission
+      window.location.href= './index.html';
     } else {
       this.reportValidity(); // Show validation messages if fields are missing
     }
