@@ -1,6 +1,7 @@
 {
-  "files.autoSave": "afterDelay",
+  "files.autoSave": "off",
   "editor.formatOnSave": false,
   "liveServer.settings.port": 5501,
-  "editor.defaultFormatter": "esbenp.prettier-vscode"
+  "editor.defaultFormatter": "esbenp.prettier-vscode",
+  "editor.fontSize": 18
 }
