@@ -71,7 +71,9 @@
   font-family: "ansi" !important;
   margin-top: 30px;
 }
-
+.marque-bg{
+  background-color: #fbc50b;
+}
 .portal-menu {
   z-index: 1;
   display: none;

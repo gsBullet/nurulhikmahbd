@@ -40,7 +40,7 @@
 
   <header class="two position-relative" style="background-color: #186D8A">
 
- 
+
     <!-- Top Bar -->
     <div class="top-bar">
       <!-- <div class="row align-items-center justify-content-center gap-3"> -->
@@ -303,7 +303,7 @@
       <br>
       <p class="fs-6">অভিভাবকের তথ্য:</p>
       <br>
-      <form id="submit_by_kitab">
+      <form action="/success.html">
         <div class="row">
           <div class="form-group mb-4 col-lg-5 col-md-5">
             <label class="form-label" for="">*অভিভাবকের নাম</label>
@@ -598,17 +598,4 @@
   });
 
 
-</script>
-
-<script>
-  document.getElementById("submit_by_kitab").addEventListener("submit", function (event) {
-    event.preventDefault(); // Prevent form submission
-
-    if (this.checkValidity()) {
-      window.location.href = './success.html';
-      this.reset(); // Optionally reset the form after submission
-    } else {
-      this.reportValidity(); // Show validation messages if fields are missing
-    }
-  });
 </script>
