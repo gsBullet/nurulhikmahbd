@@ -24,6 +24,13 @@
     url("../font/Syawal_Khidmat.ttf") format("truetype"),
     url("../font/Syawal_Khidmat.otf") format("opentype");
 }
+
+@font-face {
+  font-family: "diwani-bent";
+  src: url("../font/diwani-bent") format("truetype");
+}
+
+
 .bg-0 {
   background: #fffff2 !important;
 }
@@ -47,7 +54,7 @@
 .arabic-header {
   font-size: 40px;
   line-height: 40px;
-  font-family: "Amiri", "Scheherazade", "Arial Arabic", serif;
+  font-family: 'diwani-bent' !important;
 }
 .madrasah-header {
   font-size: 30px;
