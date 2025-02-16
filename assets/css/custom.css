@@ -1,33 +1,38 @@
 @font-face {
   font-family: "ALAQ-DIMASHQ";
-  src: url("../font/alfont_com_ALAQ-DIMASHQ.otf") format("opentype");
+  src: url("../fonts/alfont_com_ALAQ-DIMASHQ.otf") format("opentype");
 }
 
 @font-face {
   font-family: "HHHHH";
-  src: url("../font/HidayatullahDemo-mLp39.ttf") format("truetype");
+  src: url("../fonts/HidayatullahDemo-mLp39.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "RAMADHAN";
-  src: url("../font/RamadhanAmazing-jEnDv.ttf") format("truetype");
+  src: url("../fonts/RamadhanAmazing-jEnDv.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "ALHAMDULILLAH";
-  src: url("../font/AllahMuhammadColor-EaxJ4.ttf") format("truetype");
+  src: url("../fonts/AllahMuhammadColor-EaxJ4.ttf") format("truetype");
 }
 
 @font-face {
   font-family: "Syawal_Khidmat";
-  src: url("../font/Syawal_Khidmat.woff2") format("woff2"),
-    url("../font/Syawal_Khidmat.ttf") format("truetype"),
-    url("../font/Syawal_Khidmat.otf") format("opentype");
+  src: url("../fonts/Syawal_Khidmat.woff2") format("woff2"),
+    url("../fonts/Syawal_Khidmat.ttf") format("truetype"),
+    url("../fonts/Syawal_Khidmat.otf") format("opentype");
 }
 
 @font-face {
   font-family: "diwani-bent";
-  src: url("../font/diwani-bent") format("truetype");
+  src: url("../fonts/diwani-bent.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "ansi";
+  src: url("../fonts/ansi.ttf");
 }
 
 
@@ -53,8 +58,8 @@
 }
 .arabic-header {
   font-size: 40px;
-  line-height: 40px;
-  font-family: 'diwani-bent' !important;
+  line-height: 22px;
+  font-family: "diwani-bent" !important;
 }
 .madrasah-header {
   font-size: 30px;
@@ -63,7 +68,8 @@
 .madrasah-header-name {
   font-size: 42px;
   line-height: 50px;
-  font-family: "Noto Sans Bengali", "Siyam Rupali", "SolaimanLipi", sans-serif;
+  font-family: "ansi" !important;
+  margin-top: 30px;
 }
 
 .portal-menu {
